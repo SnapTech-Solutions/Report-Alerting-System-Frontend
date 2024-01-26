@@ -1,4 +1,5 @@
 import React from 'react'
+import './LabChat.css'
 
 function LabChat() {
   return (

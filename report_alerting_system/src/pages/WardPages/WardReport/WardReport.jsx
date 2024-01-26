@@ -1,4 +1,5 @@
 import React from 'react'
+import './WardReport.css'
 
 function WardReport() {
   return (
