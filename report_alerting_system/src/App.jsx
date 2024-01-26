@@ -5,7 +5,8 @@ function App() {
 
   return (
     <>
-     <HomePageComponent />
+     <div className='navBar'></div>
+     <div></div>
     </>
   )
 }
