@@ -1,8 +1,11 @@
 import React from 'react'
+import NavBarButtonComponent from './.NavBarButtonComponent'
 
 function NavBarComponent() {
   return (
-    <div>NavBarComponent</div>
+   <div className='NavBarDiv'>
+    <NavBarButtonComponent/>
+   </div>
   )
 }
 

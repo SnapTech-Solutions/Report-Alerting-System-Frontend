@@ -1,12 +1,12 @@
 import './App.css'
-import HomePageComponent from './components/HomePageComponent'
-
+import HeaderComponnet from './components/common/HeaderComponnet'
 function App() {
 
   return (
     <>
-     <div className='navBar'></div>
-     <div></div>
+     <div className='navBar'>
+      <HeaderComponnet/>
+     </div>
     </>
   )
 }
