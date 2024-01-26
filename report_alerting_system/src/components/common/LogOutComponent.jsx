@@ -1,9 +1,12 @@
 import React from 'react'
-import '../css/LogOutComponent.css'
+import '../common/css/LogOutComponent.css'
 
 function LogOutComponent() {
   return (
-    <div>LogOutComponent</div>
+    <div className='LogOutDiv'>
+      <img src='' alt='logOut' className='LogOut' /> Log Out
+
+    </div>
   )
 }
 

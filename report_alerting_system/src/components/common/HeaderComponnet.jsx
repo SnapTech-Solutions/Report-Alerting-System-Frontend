@@ -1,12 +1,13 @@
 import React from 'react'
-import '../css/HeaderComponent.css'
+import '../common/css/HeaderComponent.css'
 
 function HeaderComponnet() {
   return (
-    <div className='HeaderDiv'>
-        <img src='/home/shani/Report-Alerting-System-Frontend/report_alerting_system/src/assets/images.png' alt='SriLanlanLogo' className='SriLankanLogo'></img>
-        <h1>COLOMBO SOUTH TEACHING HOSPITAL KALUBOWILA</h1>
+
+    <div className='container-fluid  col-11'>
+      <h2 className='mt-3' id='HeaderTopic'>COLOMBO SOUTH TEACHING HOSPITAL KALUBOWILA</h2>
     </div>
+
   )
 }
 

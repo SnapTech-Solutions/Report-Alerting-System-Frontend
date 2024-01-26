@@ -1,12 +1,11 @@
 import React from 'react'
-import '../css/NavBarComponent.css'
-import NavBarButtonComponent from './NavBarButtonComponent'
+import '../common/css/NavBarComponent.css'
 
 function NavBarComponent() {
   return (
-   <div className='NavBarDiv'>
-    <NavBarButtonComponent/>
-   </div>
+    <>
+     navBar
+    </>
   )
 }
 

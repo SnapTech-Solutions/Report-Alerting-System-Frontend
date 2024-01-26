@@ -1,9 +1,11 @@
 import React from 'react'
-import '../css/UserDetailsComponent.css'
+import '../common/css/UserDetailsComponent.css'
 
-function UserDetailsComponent() {
+function UserDetailsComponent(props) {
   return (
-    <div>UserDetailsComponent</div>
+    <div className='UserDetailsDiv'>
+      <img src='' alt='UserDetials' className='UserDetails' /> {props.name}
+    </div>
   )
 }
 

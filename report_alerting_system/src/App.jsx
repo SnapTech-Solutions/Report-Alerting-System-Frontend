@@ -1,12 +1,14 @@
 import './App.css'
 import HeaderComponnet from './components/common/HeaderComponnet'
+import NavBarComponent from './components/common/NavBarComponent'
 function App() {
 
   return (
     <>
-     <div >
-      <h1>ballanpm</h1>
-     </div>
+      <div >
+        <HeaderComponnet />
+        <NavBarComponent />
+      </div>
     </>
   )
 }

@@ -1,9 +1,12 @@
 import React from 'react'
-import '../css/TextFieldComponent.css'
+import '../common/css/TextFieldComponent.css'
 
 function TextFieldComponent() {
   return (
-    <div>TextFieldComponent</div>
+
+    <div className='TextFieldDiv'>
+      <input type='text' className='textField'>{props.massege}</input>
+    </div>
   )
 }
 

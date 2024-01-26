@@ -1,9 +1,14 @@
 import React from 'react'
-import '../css/ChatPersonComponent.css'
+import '../common/css/ChatPersonComponent.css'
 
-function ChatPersonComponent() {
+function ChatPersonComponent(props) {
   return (
-    <div>ChatPersonComponent</div>
+    <div className='chatPersonDiv'>
+      <div className='chatPersondivSmall'>
+        <h4>{props.name}</h4>
+      </div>
+
+    </div>
   )
 }
 
