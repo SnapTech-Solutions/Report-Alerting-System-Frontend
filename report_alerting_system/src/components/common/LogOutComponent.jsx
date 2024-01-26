@@ -1,4 +1,5 @@
 import React from 'react'
+import '../css/LogOutComponent.css'
 
 function LogOutComponent() {
   return (

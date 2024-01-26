@@ -1,6 +1,7 @@
 import React from 'react'
+import '../css/NavBarButtonComponent.css'
 
-function NavBarButtonComponent() {
+function NavBarButtonComponent(props) {
   return (
     <div></div>
   )

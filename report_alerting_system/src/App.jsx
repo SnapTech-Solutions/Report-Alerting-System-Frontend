@@ -4,8 +4,8 @@ function App() {
 
   return (
     <>
-     <div className='navBar'>
-      <HeaderComponnet/>
+     <div >
+      <h1>ballanpm</h1>
      </div>
     </>
   )

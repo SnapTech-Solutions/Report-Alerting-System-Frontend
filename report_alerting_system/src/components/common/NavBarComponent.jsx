@@ -1,5 +1,6 @@
 import React from 'react'
-import NavBarButtonComponent from './.NavBarButtonComponent'
+import '../css/NavBarComponent.css'
+import NavBarButtonComponent from './NavBarButtonComponent'
 
 function NavBarComponent() {
   return (
