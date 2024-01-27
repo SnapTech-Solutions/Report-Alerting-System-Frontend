@@ -4,7 +4,7 @@ import '../common/css/LogOutComponent.css'
 function LogOutComponent() {
   return (
     <div className='LogOutDiv'>
-      <img src='' alt='logOut' className='LogOut' /> Log Out
+      <img src='src/assets/arrow_13895558.png' className='LogOut' /> 
 
     </div>
   )
