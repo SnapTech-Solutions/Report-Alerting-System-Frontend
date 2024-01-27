@@ -2,6 +2,7 @@
    background-color: #013E7D;
     height: 650px;
     position: absolute;
+    border-radius: 50px 0px 0px 50px;
 }
 .NavBar{
     position: absolute;
@@ -19,4 +20,5 @@ img{
     height: 80px;
     position: relative;
     left: 20px;
+    border-radius: 50px;
 }

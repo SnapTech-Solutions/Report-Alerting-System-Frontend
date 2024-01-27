@@ -1,18 +1,14 @@
 import './App.css'
-import HeaderComponnet from './components/common/HeaderComponnet'
-import NavBarComponent from './components/common/NavBarComponent'
-import NotificationBarComponent from './components/common/NotificationBarComponent'
-import WardHomePage from './pages/WardPages/WardHomePage/WardHomePage'
+import LabChat from './pages/LabChat/LabChat'
+import WardChat from './pages/WardPages/WardChat/WardChat'
+import WardPage from './pages/WardPages/WardPage'
 function App() {
 
   return (
     <>
-      <div >
-        <div> <HeaderComponnet />
-        <NavBarComponent /></div>
-       <NotificationBarComponent/>
-       <WardHomePage/>
-        
+     <div >
+      <WardPage/>
+       
       
       </div>
     </>
