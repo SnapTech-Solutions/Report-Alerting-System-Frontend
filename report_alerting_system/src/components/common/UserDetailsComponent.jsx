@@ -4,7 +4,9 @@ import '../common/css/UserDetailsComponent.css'
 function UserDetailsComponent(props) {
   return (
     <div className='UserDetailsDiv'>
-      <img src='' alt='UserDetials' className='UserDetails' /> {props.name}
+      
+      {props.name}
+      <img src='src/assets/social_13895602.png'  className='UserDetails' /> 
     </div>
   )
 }
