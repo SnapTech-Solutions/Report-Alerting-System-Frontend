@@ -6,8 +6,7 @@ import HeaderComponnet from '../../components/common/HeaderComponnet'
 function HomePage() {
   return (
     <div>
-      <NavBarComponent/>
-      <HeaderComponnet/>
+      
     </div>
   )
 }
