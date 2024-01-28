@@ -1,11 +1,16 @@
 import './App.css'
-import HomePageComponent from './components/HomePageComponent'
-
+import LabChat from './pages/LabChat/LabChat'
+import WardChat from './pages/WardPages/WardChat/WardChat'
+import WardPage from './pages/WardPages/WardPage'
 function App() {
 
   return (
     <>
-     <HomePageComponent />
+     <div >
+      <WardPage/>
+       
+      
+      </div>
     </>
   )
 }
