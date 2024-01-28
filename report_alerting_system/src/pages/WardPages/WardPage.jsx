@@ -7,15 +7,17 @@ import WardChat from './WardChat/WardChat'
 function WardPage() {
   return (
     <div >
-   <div> <HeaderComponnet />
-        <NavBarComponent /></div>
-       <NotificationBarComponent/>
       <div>
-     ,<WardChat/>
+        <HeaderComponnet />
+        <NavBarComponent />
       </div>
-       
-      
+      <NotificationBarComponent />
+      <div>
+        <WardChat />
       </div>
+
+
+    </div>
   )
 }
 

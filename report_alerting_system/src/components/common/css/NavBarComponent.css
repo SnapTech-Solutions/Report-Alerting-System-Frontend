@@ -2,7 +2,7 @@
    background-color: #013E7D;
     height: 650px;
     position: absolute;
-    border-radius: 50px 0px 0px 50px;
+    /* border-radius: 50px 0px 0px 50px; */
 }
 .NavBar{
     position: absolute;

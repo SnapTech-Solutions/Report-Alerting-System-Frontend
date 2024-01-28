@@ -5,7 +5,7 @@ import ButtonComponents from './ButtonComponents'
 
 function NotificationBarComponent() {
   return (
-    <div class="col-11 NotificationBar">
+    <div class="col-12 NotificationBar">
 
 
       <ul class="nav justify-content-end bg-dark  " >
