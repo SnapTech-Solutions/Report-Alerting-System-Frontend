@@ -1,0 +1,20 @@
+
+.container-fluid{
+    background-color: #2488F3;
+    color: black;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    height: 80px;
+    left: 108px;
+    /* border-radius: 0px 50px 0px 0px; */
+    
+    
+  
+}
+
+#HeaderTopic{
+    position: relative;
+    left: 40px;
+    font-family: "Quicksand";
+}

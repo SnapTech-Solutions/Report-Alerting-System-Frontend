@@ -1,0 +1,132 @@
+
+.headerImg{
+    width: 38px;
+    height: 50px;
+    margin-top: 10px;
+    margin-inline-start: 80%;
+    margin-bottom: 10px;
+}
+
+h3{
+    padding-top: 20px;
+}
+
+#mainHeader{
+    background-color: #b9c9e7;   
+}
+
+#mainHeader div{
+    align-items: center;
+}
+
+.imgClass{
+    background-repeat: no-repeat;
+}
+
+#loginRow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* background: url(../../assets/LoginBackground.jpg); */
+    /* background-size: cover;
+    background-position: center; */
+}
+
+.mainBG{
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.login-box{
+    display: inline-flex;
+    justify-content: center;
+}
+
+.wrapper{
+    width: 420px;
+    height: 400px;
+    background: transparent;
+    border: 2px solid rgba(36, 35, 35, 0.2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: #252525;
+    border-radius: 10px;
+    padding: 30px 40px;
+    margin-top: -540px; 
+}
+
+.wrapper h1{
+    font-size: 36px;
+    text-align: center;
+}
+
+.wrapper .input-box{
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    outline: none;
+    border: 2px solid rgba(22, 22, 22, 0.5);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #2c2b2b;
+    padding: 20px 45px 20px 20px;
+    font-weight: 500;
+}
+
+.input-box input::placeholder{
+    color: #0a0a0a;
+}
+
+.input-box i{
+    position: relative;
+    left: 300px;
+    top: -65%;
+    transform: translateY(-10%);
+    font-size: 20px;
+}
+
+.wrapper .forgot{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+    width: 100%;
+}
+
+.wrapper .forgot a{
+    color: #242323;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.wrapper .forgot a:hover{
+    text-decoration: underline;
+}
+
+.wrapper .btn{
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: #fffefe;
+    border-radius: 40px;
+    boder-shadow: 0 0 10px rgba(0,0,0,0.1);
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+}
+
+.wrapper .btn:hover{
+    color: #fff;
+    border:2px solid #ffffff;
+}
+
